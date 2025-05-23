@@ -1,4 +1,4 @@
 # no-crawling
 A mod that disables crawling and sneaking under 1,5 block spaces
 
-this is made for Forge 1.20.1 but i may or may not work on other versions
+this is made for Forge 1.20.1, but it may or may not work on other versions
