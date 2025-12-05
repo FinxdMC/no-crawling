@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.finxd.nocrawling.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "nocrawling.refmap.json",
+  "mixins": [
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
