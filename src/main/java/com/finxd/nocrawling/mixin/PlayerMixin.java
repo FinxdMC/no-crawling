@@ -42,7 +42,7 @@ public abstract class PlayerMixin extends LivingEntity {
     @Unique
     private static final Map<Pose, EntityDimensions> POSES = ImmutableMap.<Pose, EntityDimensions>builder()
             .put(Pose.STANDING, STANDING_DIMENSIONS)
-            .put(Pose.SLEEPING, EntityDimensions.fixed(0.2F, 0.2F))
+            .put(Pose.SLEEPING, SLEEPING_DIMENSIONS)
             .put(FALL_FLYING, EntityDimensions.scalable(0.6F, 0.6F))
             .put(SWIMMING, STANDING_DIMENSIONS)
             .put(SPIN_ATTACK, EntityDimensions.scalable(0.6F, 0.6F))

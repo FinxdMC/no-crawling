@@ -20,7 +20,7 @@ public class Config {
     public static final ForgeConfigSpec.BooleanValue OLD_EYE_HEIGHT = BUILDER
             .comment(" Should player's crouching eye level be at it's old value?")
             .comment(" (this option clashes with Nostalgic Tweaks' \"oldSneaking\" tweak, the animation breaks a little, so both options shouldn't be used at the same time)")
-            .comment(" true = 1,54 (old value), false = 1.27 (modern vanilla value)")
+            .comment(" true = 1.54 (old value), false = 1.27 (modern vanilla value)")
             .define("oldEyeHeight", false);
 
     static final ForgeConfigSpec SPEC = BUILDER.build();
